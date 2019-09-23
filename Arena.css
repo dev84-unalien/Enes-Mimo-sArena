@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+#daddyv{
+    border: solid red;
+    height: 96vh;
+    background-image: url(./IMG/arene_forme_ronde.jpg);
+    background-size: cover;
+    padding-top: 10px
+}
+
+#versus{
+    border: solid purple;
+    position: absolute;
+    top: 10px;
+    left: 750px;
+}
+
+#vs{
+    border: solid pink;
+    width: 15vw;
+    height: 5vh;
+}
+
+#hp{
+    text-align: center;
+    border: solid green;
+    margin-left: 50px;
+    width: 15vw;
+    height: 5vh;
+}
+
+#statut{
+    position: absolute;
+    bottom: 11px;
+}
