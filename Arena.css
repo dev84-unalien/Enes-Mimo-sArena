@@ -7,7 +7,8 @@ body{
     height: 96vh;
     background-image: url(./IMG/arene_forme_ronde.jpg);
     background-size: cover;
-    padding-top: 10px
+    padding-top: 10px;
+    display: flex;
 }
 
 #versus{
@@ -27,6 +28,15 @@ body{
     text-align: center;
     border: solid green;
     margin-left: 50px;
+    width: 15vw;
+    height: 5vh;
+}
+
+#hp2{
+    position: absolute;
+    right: 50px;
+    text-align: center;
+    border: solid red;
     width: 15vw;
     height: 5vh;
 }
