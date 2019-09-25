@@ -6,8 +6,48 @@
     background-repeat: no-repeat;
     padding-top: 10px;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 #pannel{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: grey;
+    height: 80vh;
+    width: 20vw;
+    margin: 15vw;
+}
+.texte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    height: 5vh;
+    width: 15vw;
+    margin: 15px;
+}
+#Chara{
+    height: 40vh;
+}
+.confirmer{
+    position: relative;
+    border: solid 2px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+#slip{
+    height: 100px;
+    width: 100px;
+}
+#valider{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
 }
