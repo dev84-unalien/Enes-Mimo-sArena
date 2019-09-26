@@ -6,27 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="Create.css">
     <script src="./jquery.js"></script>
-    <script src="Create.js"></script>
+    <script src="Get.js"></script>
     <title>Create your Warrior</title>
 </head>
 <body>
     <div id="daddyv">
        <div id="pannel">
-            <p id="Nom" class="texte"> Nom : RICARDO</p>
-            <p id="pv" class="texte">Point de vie : 1000</p>
-            <p id="pa" class="texte">Point d'attaque : 30%</p>
-            <p id="c_spe" class="texte">Ultimate : YOYO</p>
-            <img id="Chara" src="./IMG/1216_ricardo.png">
+            <p id="p1_nom" class="texte"></p>
+            <p id="p1_pv" class="texte"></p>
+            <p id="p1_pa" class="texte"></p>
+            <img id="p1_preview" src="">
+            <div class="fleche_selection select-right" onclick="switchRight(true)">></div>
+            <div class="fleche_selection select-left" onclick="switchLeft(true)"><</div>
         </div>
-        <div class="confirmer">
+        <div  class="confirmer">
             <img id="slip" src="./IMG/USA.png">
-            <p id="valider">Confirmer</p>
+            <p id="valider" onclick="confirm()"><i>Confirmer</i></p>
         </div>
         <div id="pannel">
-            <p id="Nom" class="texte"></p>
-            <p id="pv" class="texte"></p>
-            <p id="pa" class="texte"></p>
-            <img src="">
+            <p id="p2_nom" class="texte"></p>
+            <p id="p2_pv" class="texte"></p>
+            <p id="p2_pa" class="texte"></p>
+            <div class="fleche_selection select-right" onclick="switchRight(false)">></div>
+            <div class="fleche_selection select-left" onclick="switchLeft(false)"><</div>
+            <img id="p2_preview" src="">
         </div>
     </div>
 </body>

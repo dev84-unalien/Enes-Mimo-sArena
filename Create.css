@@ -18,6 +18,7 @@
     height: 80vh;
     width: 20vw;
     margin: 15vw;
+    position: relative;
 }
 .texte{
     display: flex;
@@ -50,4 +51,30 @@
     left: 10px;
     color: white;
     font-size: 20px;
+    cursor: pointer;
+}
+
+#p2_preview, #p1_preview {
+    width: 80%;
+}
+.fleche_selection {
+    background: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.select-right {
+    right: -75px;
+    
+}
+
+.select-left {
+    left: -75px;
 }
